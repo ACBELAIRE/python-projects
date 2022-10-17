@@ -13,6 +13,11 @@ hello()
 
 ## A function named pack() that accepts three arguments, and returns a single list with the 
 #three arguments inside as list elements
+def pack(first_name, last_name, birthdate, age ):
+    return [first_name, last_name, birthdate, age]
+
+print(pack("Austi", "Belaire", "Oct 7", 28))
+
 
 
 
