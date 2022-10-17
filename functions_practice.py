@@ -4,7 +4,10 @@
 ## A function named hello() that prints a greeting to the user, 
 ## This function should accept no arguments and returns nothing.
 
+def hello():
+    print("Hey, What's Up!!")
 
+hello()
 
 
 
