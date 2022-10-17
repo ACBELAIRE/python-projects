@@ -25,3 +25,19 @@ print(pack("Austi", "Belaire", "Oct 7", 28))
 ## that say "First I eat__"(1st element of the list)
 ## and "Next I eat __" (following elements of the list).
 ## If the list is empty, print "My lunchbox is empty!". Function should not return anything
+
+def eat_lunch(food):
+    if len(food) == 0:
+        print("My lunchbox is empty!")
+    else:
+      for i in range(len(food)):
+          if i == 0:
+            print(f"First I eat an {food[0]}" )
+          else:
+            print(f"Next I eat {food[i]} " )
+ 
+
+eat_lunch(["strawberries"])
+eat_lunch(["fries","hamburger","applepie","pineapple"])
+eat_lunch([])
+eat_lunch(["goldfish","tomato soup","grilled cheese","mandarin organges","animal crackers"])
